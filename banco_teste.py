@@ -9,7 +9,7 @@ meu_banco = sqlite3.connect('bd_clientes.db')
 cursor = meu_banco.cursor()
 
 # comentar a linha abaixo após a primeira execução
-cursor.execute("CREATE TABLE usuarios (nome text, telefone text)")
+#cursor.execute("CREATE TABLE usuarios (nome text, telefone text)")
 
 nome = input("Digite seu nome: ")
 telefone = input("Digite seu telefone: ")
