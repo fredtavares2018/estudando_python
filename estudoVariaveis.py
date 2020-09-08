@@ -24,6 +24,12 @@ print(type(e))
 
 # com elas podemos fazer as operações aritméticas 
 
+# x != y        # x é diferente de y
+# x > y         # x é maior que y
+# x < y         # x é menor que y
+# x >= y        # x é maior ou igual a y
+# x <= y        # x é menor ou igual a y
+
 print('Soma ', a+b, 'Subtração ', a-b)
 print('Multiplicação ', a*b, 'Divisão ', a/b)
 print('Potenciação ', b**a)
