@@ -41,7 +41,7 @@ print(decimais[1])
 # Uma ideia de dicionário seria um "json"
 meus_carros = {1 : 'Caminhonete', 2 : 'Uno', 3 : 'Fusca', 4 : 'Jeep'}
 print(type(meus_carros))
-print(meus_carros[2])
+print(meus_carros[3])
 
 # resposta 
 # <class 'dict'>  dicionario
