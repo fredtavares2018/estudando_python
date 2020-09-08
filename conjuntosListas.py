@@ -12,7 +12,6 @@ print(type(conj))
 # faça: list(conj)
 
 
-
 # Uma lista montamos com seus valores entre colchetes [] :
 # Obs: uma lista possui índices
 
@@ -23,7 +22,6 @@ print(numeros_primos[0])
 # resposta 
 # <class 'list'>  lista
 # numeros_primos[0] = 2
-
 
 
 # Uma tupla montamos com seus valores entre parênteses () :
