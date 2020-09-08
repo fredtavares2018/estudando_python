@@ -45,3 +45,16 @@ def paridade(numero):
     print ("O número digitado",numero, "é impar")
 
 paridade(5)
+
+
+# 05 condicional encadeada
+
+def comparandoIdades(id1, id2):
+  if id1 == id2:                                          #compara as idades ==
+    print ("Vocês tem a mesma idade",id1)
+  elif id1 < id2:
+    print ("A idade",id1,"é menor que a idade",id2)
+  else:
+    print ("A idade",id2,"é menor que a idade",id1)
+    
+comparandoIdades(3,7)
