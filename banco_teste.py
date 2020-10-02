@@ -21,5 +21,7 @@ cursor.execute("SELECT * FROM usuarios ")
 
 meu_banco.commit()
 
-print(cursor.fetchall())
+recebendo = cursor.fetchall()
+
+print(recebendo, recebendo[0][1])
 
